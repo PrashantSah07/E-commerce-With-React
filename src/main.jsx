@@ -6,6 +6,7 @@ import Category from './pages/Category.jsx'
 import Product from './pages/Products.jsx'
 import Login from './pages/Login.jsx'
 import Card from './pages/Card.jsx'
+import Error from './pages/Error.jsx'
 import banner_mens from './assets/banner_mens.png'
 import banner_women from './assets/banner_women.png'
 import banner_kids from './assets/banner_kids.png'
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/product/:productId" element={<Product />} />
         <Route path="/login" element={<Login />} />
         <Route path="/card" element={<Card />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   </CardContextProvider>,
