@@ -1,0 +1,7 @@
+.slider {
+    transform: translateX(100%);
+}
+
+.sliderX {
+    transform: translateX(0%);
+}
